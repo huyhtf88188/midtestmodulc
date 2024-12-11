@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product A",
+      "price": 220,
+      "description": "This is product A",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Product B",
+      "price": 180,
+      "description": "This is product B",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "Product C",
+      "price": 120,
+      "description": "This is product C",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "title": "Product D",
+      "price": 150,
+      "description": "This is product D",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "title": "Product E",
+      "price": 200,
+      "description": "This is product E",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "title": "Product F",
+      "price": 250,
+      "description": "This is product F",
+      "thumbnail": "https://picsum.photos/200/300.webp",
+      "stock": 100,
+      "categoryId": 3
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Technology", "slug": "technology" },
+    { "id": 2, "name": "Clothing", "slug": "clothing" },
+    { "id": 3, "name": "Others", "slug": "others" }
+  ],
+
+  "users": [
+    {
+      "email": "hhhoanghuy@yahoo.com.vn",
+      "password": "123123123"
+    },
+    {
+      "email": "1231233123@gmail.com",
+      "password": "$2a$10$8ADzKzsEpbllwsARjQAl0u/niVqCpMOM.8egnp2WV5igS40aq6ple",
+      "id": 2
+    },
+    {
+      "email": "bbb1234@gmail.com",
+      "password": "$2a$10$oy85fB242ZJrl7cAG2H8kOuFPQowO29c9u21x0Lq5uS2VJ7uysska",
+      "id": 3
+    },
+    {
+      "email": "hhhoanghuy@yahoo.com",
+      "password": "$2a$10$cLDd4iduF50ec6mKaAarKO1hn3Omzt.sYWyZg0V/LFTtqdKrGDZGy",
+      "id": 4,
+      "role": "admin"
+    }
+  ]
+}
